@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap');
+
+.sectionStyling{
+    font-family: "Gilda Display", serif;
+    text-align: center;
+    padding-bottom: 2vw;
+
+    h3{
+        font-size: 32px;
+        padding: 2vw 0;
+    }
+
+    p{
+        font-size: 14px;
+        padding: 0 22vw;
+        text-transform: uppercase;
+        padding-bottom: 6vw;
+    }
+    
+    button{
+        background-color: transparent;
+        font-family: "Gilda Display", serif;
+        padding: 1vw 3vw;
+        font-size: 14px;
+        border: solid black 1px;
+    }
+}

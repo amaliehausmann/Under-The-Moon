@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap');
+
+.navStyling{
+    background-color: #262626;
+    ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        padding-right: 4vw;
+
+        li{
+            color: white;
+            font-family: "Gilda Display", serif;
+            list-style: none;
+            padding: 2vw 1vw;
+            font-size: 16px;
+        }
+    }
+}
