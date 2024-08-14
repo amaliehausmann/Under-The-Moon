@@ -1,11 +1,10 @@
 
 import { Footer } from "./components/Footer/Footer";
 import { Gallery } from "./components/Gallery/Gallery";
-
 import { Header } from "./components/Header/Header"
 import { NewStyle } from "./components/NewStyle/NewStyle"
 import { TwoCards } from "./components/TwoCards/TwoCards"
-
+import './App.css'
 function App() {
   const images = [
     "1.jpg",

@@ -10,7 +10,7 @@
 .linksHeader {
   color: #fff;
   font-family: "Gilda Display", serif;
-  text-align: center;
+  text-align: left;
   padding-left: 3rem;
   margin: 0;
   font-size: 18px;
@@ -19,7 +19,7 @@
 .linksList {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: left;
   gap: 0.5rem;
 
   .linksListItem {
@@ -30,7 +30,7 @@
     p {
       margin: 0;
       text-align: left;
-      padding-right: 0.8rem;
+      padding-left: 1rem;
     }
   }
 }
