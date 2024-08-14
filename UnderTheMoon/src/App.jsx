@@ -1,9 +1,11 @@
-function App() {
+import { Footer } from "./components/Footer/Footer";
 
+function App() {
   return (
     <>
+      <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
