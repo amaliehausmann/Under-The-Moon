@@ -1,5 +1,10 @@
+
 import { Footer } from "./components/Footer/Footer";
 import { Gallery } from "./components/Gallery/Gallery";
+
+import { Header } from "./components/Header/Header"
+import { NewStyle } from "./components/NewStyle/NewStyle"
+import { TwoCards } from "./components/TwoCards/TwoCards"
 
 function App() {
   const images = [
@@ -18,8 +23,12 @@ function App() {
   ];
   return (
     <>
-      <Gallery GalleryImage={images} />
-      <Footer />
+    <Header/>
+    <NewStyle/>
+    <TwoCards/>
+    <Gallery GalleryImage={images} />
+    <Footer />
+
     </>
   );
 }
