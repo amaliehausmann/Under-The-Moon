@@ -1,0 +1,16 @@
+.gallerHeader {
+  text-align: center;
+  font-family: "Gilda Display", serif;
+  font-size: 32px;
+}
+
+.imagesGallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  padding: 1vw 2vw 3vw 2vw;
+
+  img {
+    width: 100%;
+  }
+}
